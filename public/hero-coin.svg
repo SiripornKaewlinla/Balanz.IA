@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" fill="none">
+  <rect width="720" height="720" rx="40" fill="#111318"/>
+
+  <!-- Outer ring segments -->
+  <g stroke-linecap="round" stroke-width="52">
+    <!-- Left big purple arc -->
+    <path d="M140 360a220 220 0 0 1 120 -190" stroke="#6D4DB8" opacity="0.95"/>
+    <path d="M140 360a220 220 0 0 0 120 190" stroke="#6D4DB8" opacity="0.95"/>
+
+    <!-- Top light purple arc -->
+    <path d="M380 140a220 220 0 0 1 220 220" stroke="#C9B9E9"/>
+
+    <!-- Bottom teal arc -->
+    <path d="M360 580a220 220 0 0 0 220 -180" stroke="#1CC7C2"/>
+  </g>
+
+  <!-- Connectors -->
+  <g stroke-linecap="round" stroke-width="26" stroke="#BFAFDF">
+    <path d="M120 230 l-40 -40"/>
+    <circle cx="70" cy="180" r="18" fill="#C9B9E9"/>
+    <path d="M610 230 l40 -40"/>
+    <circle cx="660" cy="180" r="18" fill="#C9B9E9"/>
+    <path d="M570 560 l40 40"/>
+    <circle cx="620" cy="610" r="18" fill="#1CC7C2"/>
+  </g>
+
+  <!-- Center coin stack -->
+  <g transform="translate(270,270)">
+    <!-- shadow -->
+    <ellipse cx="90" cy="210" rx="110" ry="24" fill="#0d1116" opacity="0.45"/>
+
+    <!-- stack body -->
+    <g>
+      <rect x="15" y="40" width="180" height="160" rx="26" fill="#FDBA21"/>
+      <ellipse cx="105" cy="40" rx="90" ry="26" fill="#F59E0B"/>
+      <ellipse cx="105" cy="200" rx="90" ry="26" fill="#F59E0B"/>
+      <rect x="15" y="105" width="180" height="55" fill="#FFC22C"/>
+      <path d="M160 120c20 0 24 22 6 32" stroke="#FFE082" stroke-width="10" stroke-linecap="round"/>
+      <path d="M170 95c16 0 20 16 5 24" stroke="#FFE082" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- front coin with $ -->
+    <g transform="translate(-10,110)">
+      <circle cx="85" cy="65" r="72" fill="#FFB800"/>
+      <circle cx="85" cy="65" r="56" fill="#FFE08A"/>
+      <circle cx="150" cy="80" r="18" fill="#FFD45A"/>
+      <path d="M85 30v70m-22 -20c8 14 38 18 52 8 8 -6 8 -18 0 -24 -14 -10 -44 -6 -52 8z" stroke="#FFB800" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="#FFE08A"/>
+      <text x="85" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="52" fill="#FFB800">$</text>
+    </g>
+  </g>
+</svg>
+
