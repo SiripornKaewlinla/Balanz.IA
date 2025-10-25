@@ -29,5 +29,5 @@
 
 ---
 
-## 🧱 System Architecture
+
 
